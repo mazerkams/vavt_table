@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>vavt_table</title>
     <link rel="stylesheet" href="css/stule.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <p id="greeting">
         Here is your time table for the <strong>first week</strong>
         <br>
-        <time>01.09 - 02.09 </time>
+        <time><datetime>01.09 - 02.09</datetime></time>
         <hr>
     </p>
 </header>   
@@ -51,13 +51,17 @@
         <tr>
             <th rowspan="6">02.09 <br>Friday</th>
         </tr>
-        <tr>
+        <tr class="fulfill">
             <td>09:00 - 10:20</td>
-            <td colspan="3">There is no lecture</td>
+            <td >Страхование</td>
+            <td>лекция</td>
+            <td>706</td>
         </tr>
-        <tr>
+        <tr class="fulfill">
             <td>10:30 - 11:50</td>
-            <td colspan="3">There is no lecture</td>
+            <td >Страхование</td>
+            <td>лекция</td>
+            <td>706</td>
         </tr>
         <tr class="fulfill">
             <td>12:00 - 13:20</td>
@@ -65,17 +69,13 @@
             <td>лекция</td>
             <td>606</td>
         </tr>
-        <tr class="fulfill">
+        <tr>
             <td>14:00 - 15:20</td>
-            <td>Финансовый и управленческиц анализ</td>
-            <td>лекция</td>
-            <td>701</td>
+            <td colspan="3">There is no lecture</td>
         </tr>
-        <tr class="fulfill">
+        <tr>
             <td>15:30 - 16:50</td>
-            <td>Финансовый и управленческиц анализ</td>
-            <td>лекция</td>
-            <td>701</td>
+            <td colspan="3">There is no lecture</td>
         </tr>
     </table>
 </main>
